@@ -1,0 +1,73 @@
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+.register-form {
+  max-width: 450px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.register-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.register-login-link {
+  margin-top: 16px;
+  display: block;
+  text-align: center;
+  color: #666;
+}
+.cyh{
+    font-weight: bold;
+    padding: 8rpx;
+}
+.cyh1{
+    width: 580rpx;
+    height: 75rpx;
+    margin: 40rpx;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 25rpx;
+}
+.cyh2{
+	width: 350rpx ;
+    height: 120rpx;
+    border-radius: 120rpx;
+    font-size: 50rpx;
+    margin-top: 50rpx;
+    background-color:blue;
+    color:white;
+}
+.cyh2:hover{
+    color:rgb(255, 255, 255) ;
+}
+page{
+    height: 100%;
+    background-color: rgba(0 ,191, 255,0.692);
+}
+.btn-primary:hover {
+  background-color: #36a474;
+}
+
